@@ -61,7 +61,6 @@ function App() {
   }
 
   function stackInArray(data) {
-    // console.log("stackInArray", data);
     const companyLabel = [];
     let companyMissions = [];
     for (let key in data) {
@@ -72,8 +71,6 @@ function App() {
     setMission(companyMissions);
   }
 
-  // console.log("label", label);
-  // console.log("companyMissions", mission);
 
   return (
     <div className="ag-theme-quartz" style={{ height: 500 }}>
