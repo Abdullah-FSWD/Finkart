@@ -6,14 +6,14 @@ The SpaceVue Company Data Dashboard is a React project designed to showcase info
 - Tabular Data: Utilizes AG Grid to display detailed information about different space companies in a tabular format.
 - Pie Chart: Integrates Chart.js to represent the success rate of missions completed by the companies on a visually appealing pie chart.
 - Login Functionality: Implements a simple login system with hardcoded credentials. To access the dashboard, use the following credentials:
-    - ## Username: admin
-    - ## Password: admin (Highlighted for clarity)
+    - ### Username: admin
+    - ### Password: admin (Highlighted for clarity)
  
 ## Usage
   - Open your web browser and go to [SpaceVue](https://finkart-theta.vercel.app/)
   - Log in using the provided credentials:
-     - ## Username: admin
-     - ## Password: admin (Highlighted for clarity)
+     - ### Username: admin
+     - ### Password: admin (Highlighted for clarity)
   - Explore the tabular data and the informative pie chart showcasing successful mission completion rates.
 
 
