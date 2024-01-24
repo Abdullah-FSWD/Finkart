@@ -3,7 +3,6 @@ import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const PieChart = ({ label, mission }) => {
-  console.log("lable", label, "mission", mission);
   const data = {
     labels: label,
     datasets: [

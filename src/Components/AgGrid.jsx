@@ -21,7 +21,6 @@ export const AgGrid = ({ setLabel, setMission }) => {
       );
       setRowData(response.data);
       const companiesStats = getSuccessfulCompanyStats(response.data);
-      // console.log("companiesStats", companiesStats);
       stackInArray(companiesStats);
     } catch (error) {
       throw new Error(error);
@@ -58,6 +57,7 @@ export const AgGrid = ({ setLabel, setMission }) => {
     setMission(companyMissions);
   }
 
-  return <AgGridReact rowData={rowData} columnDefs={colDefs} />;
-  // return <h1>Hello AgGrid</h1>;
+  return (
+    <AgGridReact rowData={rowData} columnDefs={colDefs} pagination={true} />
+  );
 };
